@@ -2,12 +2,12 @@ BEGIN:VCARD
 VERSION:3.0
 N:Krienke;Preston;;;
 FN:Preston Krienke
-ORG:MavTechPro
+ORG:MavTech Pro
 TITLE:Owner & Lead Integrator
 TEL;TYPE=CELL,VOICE:+18323664210
 TEL;TYPE=WORK,VOICE:+18327136306
 EMAIL;TYPE=WORK:preston@mavtechpro.com
-URL:https://mavtechpro.com
+URL:https://www.mavtechpro.com
 ADR;TYPE=WORK:;;;Houston;TX;;USA
-NOTE:Luxury smart home automation — Crestron & RTI integration.
+NOTE:Your home. Perfected. — Luxury smart home automation for Houston's finest residences.
 END:VCARD
