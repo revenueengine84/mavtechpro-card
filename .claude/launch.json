@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "card",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4210", "--directory", "/Users/prestonkrienke/Documents/mavtechpro-card"],
+      "port": 4210
+    }
+  ]
+}

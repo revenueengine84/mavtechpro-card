@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "source": "/contact.vcf",
+      "headers": [
+        { "key": "Content-Type", "value": "text/vcard; charset=utf-8" },
+        { "key": "Content-Disposition", "value": "attachment; filename=\"Preston_Krienke_MavTechPro.vcf\"" }
+      ]
+    },
+    {
+      "source": "/images/og-image.png",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    }
+  ]
+}
