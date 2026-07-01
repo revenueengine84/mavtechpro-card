@@ -248,7 +248,6 @@ img { display: block; max-width: 100%; }
   display: flex;
   flex-direction: column;
   gap: 10px;
-  perspective: 1200px;
 }
 
 .service-tile {
@@ -260,16 +259,14 @@ img { display: block; max-width: 100%; }
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 14px;
-  transform-style: preserve-3d;
   transform-origin: top center;
-  transform: rotateX(-78deg);
+  transform: scaleY(0.35) translateY(-8px);
   opacity: 0;
-  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.45s ease-out, border-color 0.2s;
-  will-change: transform, opacity;
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease-out, border-color 0.2s;
 }
 
 .service-tile.is-visible {
-  transform: rotateX(0deg);
+  transform: scaleY(1) translateY(0);
   opacity: 1;
 }
 
